@@ -1,0 +1,19 @@
+git init 
+git config --global user.name ""
+git config --global user.email ""
+touch arquivo1.txt ( criar os arquivos)
+git add .
+git commit -m ""
+git checkout -b "nome da branch" (criar branch)
+git checkout "nome da branch"
+list
+git push -u origin main (leva arquivos pro github
+git pull ( traz arquivos do github
+git remote remove origin (remove a conexão
+git remote add origin (adiciona nova conexão
+ls (verificar arquivos existentes
+
+CHAVE SSH
+ssh-keygen -t ed25519 -C "seu email"
+
+clip < ~/.ssh/id_ed25519.pub
